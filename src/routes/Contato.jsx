@@ -1,15 +1,19 @@
-const Contato=()=>{
-    return(
-        <>
-        <h1>Página Contato</h1>
-        <h2>Telefone: (11) 3456-7890  </h2>
-        <h2>Email: contato@sportworld.com.br </h2>
-        <h2>Endereço: Rua das Palmeiras, 1234 - Bairro Jardim Paulista, São Paulo - SP, CEP 01423-001 </h2>
-        <h2>Instagram: LojaSportWorld </h2>
-        <h2>Facebook: SportWorld.io </h2>
-        <h2>Parceiros: Sportingbet </h2>
-        </>
-    )
-}
+import { ContactWrapper, Title, Info, Highlight } from '../css/ContatoStyle'; 
+// Altere o caminho para o local correto onde você salvou os estilos
 
-export default Contato
+const Contato = () => {
+    return (
+      <ContactWrapper>
+        <Title>Página Contato</Title>
+        <Info>Telefone: <Highlight>(11) 3456-7890</Highlight></Info>
+        <Info>Email: <Highlight>contato@sportworld.com.br</Highlight></Info>
+        <Info>Endereço: <Highlight>Rua das Palmeiras, 1234 - Bairro Jardim Paulista, São Paulo - SP, CEP 01423-001</Highlight></Info>
+        <Info>Instagram: <Highlight>LojaSportWorld</Highlight></Info>
+        <Info>Facebook: <Highlight>SportWorld.io</Highlight></Info>
+        <Info>Parceiros: <Highlight>Sportingbet</Highlight></Info>
+      </ContactWrapper>
+    );
+  };
+  
+  export default Contato;
+  
