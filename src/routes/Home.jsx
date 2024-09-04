@@ -1,13 +1,13 @@
-import Image3 from '../assets/SportWorld.jpg'
 
-const Home=()=>{
-    return(
-        <>
-        <h1>Página Home - Sport World</h1>
+import Image3 from '../assets/SportWorld.jpg';
+import { Container, StyledImage } from '../css/HomeStyle';
 
-        <img src={Image3} alt="Home"/>
-        </>
-    )
-}
-
-export default Home 
+const Home = () => {
+    return (
+      <Container>
+        <StyledImage src={Image3} alt="Home" />
+      </Container>
+    );
+  };
+  
+  export default Home;
