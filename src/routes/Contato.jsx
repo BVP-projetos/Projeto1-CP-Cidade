@@ -1,10 +1,9 @@
 import { ContactWrapper, Title, Info, Highlight } from '../css/ContatoStyle'; 
-// Altere o caminho para o local correto onde você salvou os estilos
 
 const Contato = () => {
     return (
       <ContactWrapper>
-        <Title>Página Contato</Title>
+        <Title>Contato</Title>
         <Info>Telefone: <Highlight>(11) 3456-7890</Highlight></Info>
         <Info>Email: <Highlight>contato@sportworld.com.br</Highlight></Info>
         <Info>Endereço: <Highlight>Rua das Palmeiras, 1234 - Bairro Jardim Paulista, São Paulo - SP, CEP 01423-001</Highlight></Info>
