@@ -1,12 +1,13 @@
-import Image4 from '../assets/Acessorios.jpg'
+import Image4 from '../assets/Acessorios.jpg';
+import { PageContainer, Title, Image } from '../css/ProdutosStyle';
 
-const Produtos=()=>{
-    return(
-        <>
-        <h1>Produtos</h1>
-        <img src={Image4} alt="Acessórios"/>
-        </>
-    )
-}
+const Produtos = () => {
+  return (
+    <PageContainer>
+      <Title>Produtos</Title>
+      <Image src={Image4} alt="Acessórios" />
+    </PageContainer>
+  );
+};
 
-export default Produtos 
+export default Produtos;
