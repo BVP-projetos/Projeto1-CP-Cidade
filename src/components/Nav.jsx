@@ -5,7 +5,7 @@ const Nav=()=>{
     return(
         <NavStyle>      
         <section className="nav">
-            <Link to = '/home' className="link">Home</Link>
+            <Link to = '/' className="link">Home</Link>
             <Link to = '/produtos' className="link">Produtos</Link>
             <Link to = '/sobre' className="link">Sobre</Link>
             <Link to = '/contato' className="link">Contato</Link>

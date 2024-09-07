@@ -8,10 +8,6 @@ function App() {
   return (
     <>
       <Nav/>
-        <div>
-          <h1>Bem-Vindo ao nosso site de esportes!</h1>
-        </div>
-
         <Outlet/> {/*chamando todos os componentes filho*/}
       <Footer/>
 
