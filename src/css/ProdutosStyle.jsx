@@ -50,7 +50,7 @@ margin-top: 40px;
 }
 .cardImg{
 	width: 100%;
-	padding: 20px;
+	padding: 60px;
 }
 .cardPrice{
 	font-size:25px;
@@ -76,5 +76,30 @@ margin-top: 40px;
 	font-size: 15px;
 	transition: ease-in-out 0.5s;
 	font-weight: 700;
+}
+#tenis_Nikeimg{
+	padding: 62px;
+	padding-left: 50px;
+	width: 110%
+}
+#camisaCorinthiansimg{
+	height:266px;
+	padding: 30px;
+}
+#calcaPumaimg{
+	height:266px;
+	padding: 30px;
+	width:200px;
+	margin-left:45px;
+}
+#raqueteTenisimg{
+	height:266px;
+	padding: 30px;
+}
+#meiaNikeimg{
+	height:266px;
+	padding: 30px;
+	width: 250px;
+	margin-left:20px;
 }
 `
